@@ -1,0 +1,160 @@
+@cheatDuration = -1
+@tickDuration = 0
+
+cheat_resource_modifier_edict = {
+	length = @tickDuration
+	icon = "GFX_edict_type_policy"
+
+	resources = {
+		category = edicts
+	}
+
+	effect = {
+    # Add Cheat modifier
+    add_modifier = { name = cheat_resource_modifier }
+  }
+
+  modifier = {
+		country_energy_produces_mult = 900.0
+    country_minerals_produces_mult = 900.0
+		country_food_produces_mult = 900.0
+    country_consumer_goods_produces_mult = 900.0
+    country_alloys_produces_mult = 900.0
+		pop_growth_speed = 1.0
+    pop_happiness = 900.0
+    edicts_upkeep_mult = -900.0
+    country_resource_max_add = 999999
+    planet_building_build_speed_mult = 900.0
+    megastructure_build_speed_mult = 900.0
+		country_megastructure_build_cap_add = 999999
+
+    planet_jobs_productive_upkeep_mult = -900.0
+    planet_jobs_productive_produces_mult = 900.0
+
+    planet_jobs_energy_produces_mult = 900.0
+    planet_jobs_minerals_produces_mult = 900.0
+    planet_jobs_food_produces_mult = 900.0
+    planet_jobs_consumer_goods_produces_mult = 900.0
+    planet_jobs_alloys_produces_mult = 900.0
+  }
+
+	potential = {
+		is_ai = no
+    NOT = { has_modifier = cheat_resource_modifier }
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+cheat_rare_resource_add_edict = {
+	length = @tickDuration
+	icon = "GFX_edict_type_policy"
+
+	resources = {
+		category = edicts
+	}
+
+	effect = {
+    # Add Cheat resources
+    add_resource = { volatile_motes = 999999999 }
+    add_resource = { exotic_gases = 999999999 }
+    add_resource = { rare_crystals = 999999999 }
+    add_resource = { sr_living_metal = 999999999 }
+    add_resource = { sr_zro = 999999999 }
+    add_resource = { sr_dark_matter = 999999999 }
+    add_resource = { nanites = 999999999 }
+  }
+
+	potential = {
+		is_ai = no
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+cheat_ships_modifier_edict = {
+	length = @cheatDuration
+	icon = "GFX_edict_type_policy"
+
+	resources = {
+		category = edicts
+	}
+
+	modifier = {
+    ships_upkeep_mult = -900.0
+    armies_upkeep_mult = -900.0
+    leaders_upkeep_mult = -900.0
+    ships_energy_upkeep_mult = -900.0
+    starbases_energy_upkeep_mult = -900.0
+    ship_shield_mult = 900.0
+    ship_armor_mult = 900.0
+    ship_hull_regen_add_perc = 900.0
+    ship_speed_mult = 900.0
+    ship_evasion_mult = 900.0
+    ship_accuracy_mult = 900.0
+    ship_fire_rate_mult = 900.0
+    ship_starting_experience_add = 99999
+    starbase_shipyard_build_speed_mult = 900.0
+    ships_upkeep_mult = -900.0
+  }
+
+	potential = {
+		is_ai = no
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+cheat_military_cap_edict = {
+	length = @cheatDuration
+	icon = "GFX_edict_type_policy"
+
+	resources = {
+		category = edicts
+	}
+
+	modifier = {
+    country_starbase_capacity_add = 99999
+    country_command_limit_add = 99999
+    country_naval_cap_add = 99999
+  }
+
+	potential = {
+		is_ai = no
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+cheat_empire_size_edict = {
+	length = @cheatDuration
+	icon = "GFX_edict_type_policy"
+
+	resources = {
+		category = edicts
+	}
+
+	modifier = {
+    empire_size_colonies_mult = -900.0
+    empire_size_pops_mult = -900.0
+    empire_size_penalty_mult = -900.0
+		empire_size_districts_mult = -900.0
+    empire_size_systems_mult = -900.0
+  }
+
+	potential = {
+		is_ai = no
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}

@@ -3,6 +3,7 @@
 ################
 
 @cheatDuration = -1
+@tickDuration = 0
 
 cheat_tech_research = {
 	length = @cheatDuration
@@ -13,6 +14,10 @@ cheat_tech_research = {
 	}
 
 	effect = {
+    add_modifier = {
+      modifier = cheat_tech_research
+    }
+
     # Research all techs
     give_technology = { message = no tech = tech_space_exploration }
     give_technology = { message = no tech = tech_corvettes }
@@ -379,6 +384,7 @@ cheat_tech_research = {
 
 	potential = {
 		is_ai = no
+    NOT = { has_modifier = cheat_tech_research_done }
 	}
 
 	ai_weight = {
@@ -387,7 +393,7 @@ cheat_tech_research = {
 }
 
 cheat_tech_repeat_research_5 = {
-	length = 1
+	length = @tickDuration
 	icon = "GFX_edict_type_policy"
 
 	resources = {
@@ -532,6 +538,176 @@ cheat_tech_repeat_research_5 = {
     give_technology = { message = no tech = tech_repeatable_command_limit }
 
     # Research repeat techs 5
+    give_technology = { message = no tech = tech_repeatable_improved_tile_mineral_output }
+    give_technology = { message = no tech = tech_repeatable_improved_military_station_damage }
+    give_technology = { message = no tech = tech_repeatable_improved_military_station_health }
+    give_technology = { message = no tech = tech_repeatable_improved_ship_health }
+    give_technology = { message = no tech = tech_repeatable_improved_armor_output }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_explosive_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_explosive_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_kinetic_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_kinetic_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_improved_tile_energy_output }
+    give_technology = { message = no tech = tech_repeatable_improved_shield_output }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_energy_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_energy_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_strike_craft_fire_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_strike_craft_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_improved_planet_sensor_range }
+    give_technology = { message = no tech = tech_repeatable_reduced_building_cost }
+    give_technology = { message = no tech = tech_repeatable_reduced_building_time }
+    give_technology = { message = no tech = tech_repeatable_improved_tile_food_output }
+    give_technology = { message = no tech = tech_repeatable_improved_sector_cap }
+    give_technology = { message = no tech = tech_repeatable_improved_core_system_cap }
+    give_technology = { message = no tech = tech_repeatable_improved_leader_cap }
+    give_technology = { message = no tech = tech_repeatable_reduced_leader_cost }
+    give_technology = { message = no tech = tech_repeatable_reduced_leader_cost_machine_intelligence }
+    give_technology = { message = no tech = tech_repeatable_improved_edict_length }
+    give_technology = { message = no tech = tech_repeatable_improved_army_damage }
+    give_technology = { message = no tech = tech_repeatable_improved_army_health }
+    give_technology = { message = no tech = tech_repeatable_improved_leader_life_span }
+    give_technology = { message = no tech = tech_repeatable_improved_starbase_capacity }
+    give_technology = { message = no tech = tech_repeatable_improved_slave_mineral_output }
+    give_technology = { message = no tech = tech_repeatable_naval_cap }
+    give_technology = { message = no tech = tech_repeatable_command_limit }
+
+    # Research repeat techs 6
+    give_technology = { message = no tech = tech_repeatable_improved_tile_mineral_output }
+    give_technology = { message = no tech = tech_repeatable_improved_military_station_damage }
+    give_technology = { message = no tech = tech_repeatable_improved_military_station_health }
+    give_technology = { message = no tech = tech_repeatable_improved_ship_health }
+    give_technology = { message = no tech = tech_repeatable_improved_armor_output }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_explosive_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_explosive_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_kinetic_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_kinetic_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_improved_tile_energy_output }
+    give_technology = { message = no tech = tech_repeatable_improved_shield_output }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_energy_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_energy_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_strike_craft_fire_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_strike_craft_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_improved_planet_sensor_range }
+    give_technology = { message = no tech = tech_repeatable_reduced_building_cost }
+    give_technology = { message = no tech = tech_repeatable_reduced_building_time }
+    give_technology = { message = no tech = tech_repeatable_improved_tile_food_output }
+    give_technology = { message = no tech = tech_repeatable_improved_sector_cap }
+    give_technology = { message = no tech = tech_repeatable_improved_core_system_cap }
+    give_technology = { message = no tech = tech_repeatable_improved_leader_cap }
+    give_technology = { message = no tech = tech_repeatable_reduced_leader_cost }
+    give_technology = { message = no tech = tech_repeatable_reduced_leader_cost_machine_intelligence }
+    give_technology = { message = no tech = tech_repeatable_improved_edict_length }
+    give_technology = { message = no tech = tech_repeatable_improved_army_damage }
+    give_technology = { message = no tech = tech_repeatable_improved_army_health }
+    give_technology = { message = no tech = tech_repeatable_improved_leader_life_span }
+    give_technology = { message = no tech = tech_repeatable_improved_starbase_capacity }
+    give_technology = { message = no tech = tech_repeatable_improved_slave_mineral_output }
+    give_technology = { message = no tech = tech_repeatable_naval_cap }
+    give_technology = { message = no tech = tech_repeatable_command_limit }
+
+    # Research repeat techs 7
+    give_technology = { message = no tech = tech_repeatable_improved_tile_mineral_output }
+    give_technology = { message = no tech = tech_repeatable_improved_military_station_damage }
+    give_technology = { message = no tech = tech_repeatable_improved_military_station_health }
+    give_technology = { message = no tech = tech_repeatable_improved_ship_health }
+    give_technology = { message = no tech = tech_repeatable_improved_armor_output }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_explosive_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_explosive_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_kinetic_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_kinetic_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_improved_tile_energy_output }
+    give_technology = { message = no tech = tech_repeatable_improved_shield_output }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_energy_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_energy_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_strike_craft_fire_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_strike_craft_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_improved_planet_sensor_range }
+    give_technology = { message = no tech = tech_repeatable_reduced_building_cost }
+    give_technology = { message = no tech = tech_repeatable_reduced_building_time }
+    give_technology = { message = no tech = tech_repeatable_improved_tile_food_output }
+    give_technology = { message = no tech = tech_repeatable_improved_sector_cap }
+    give_technology = { message = no tech = tech_repeatable_improved_core_system_cap }
+    give_technology = { message = no tech = tech_repeatable_improved_leader_cap }
+    give_technology = { message = no tech = tech_repeatable_reduced_leader_cost }
+    give_technology = { message = no tech = tech_repeatable_reduced_leader_cost_machine_intelligence }
+    give_technology = { message = no tech = tech_repeatable_improved_edict_length }
+    give_technology = { message = no tech = tech_repeatable_improved_army_damage }
+    give_technology = { message = no tech = tech_repeatable_improved_army_health }
+    give_technology = { message = no tech = tech_repeatable_improved_leader_life_span }
+    give_technology = { message = no tech = tech_repeatable_improved_starbase_capacity }
+    give_technology = { message = no tech = tech_repeatable_improved_slave_mineral_output }
+    give_technology = { message = no tech = tech_repeatable_naval_cap }
+    give_technology = { message = no tech = tech_repeatable_command_limit }
+
+    # Research repeat techs 8
+    give_technology = { message = no tech = tech_repeatable_improved_tile_mineral_output }
+    give_technology = { message = no tech = tech_repeatable_improved_military_station_damage }
+    give_technology = { message = no tech = tech_repeatable_improved_military_station_health }
+    give_technology = { message = no tech = tech_repeatable_improved_ship_health }
+    give_technology = { message = no tech = tech_repeatable_improved_armor_output }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_explosive_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_explosive_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_kinetic_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_kinetic_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_improved_tile_energy_output }
+    give_technology = { message = no tech = tech_repeatable_improved_shield_output }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_energy_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_energy_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_strike_craft_fire_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_strike_craft_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_improved_planet_sensor_range }
+    give_technology = { message = no tech = tech_repeatable_reduced_building_cost }
+    give_technology = { message = no tech = tech_repeatable_reduced_building_time }
+    give_technology = { message = no tech = tech_repeatable_improved_tile_food_output }
+    give_technology = { message = no tech = tech_repeatable_improved_sector_cap }
+    give_technology = { message = no tech = tech_repeatable_improved_core_system_cap }
+    give_technology = { message = no tech = tech_repeatable_improved_leader_cap }
+    give_technology = { message = no tech = tech_repeatable_reduced_leader_cost }
+    give_technology = { message = no tech = tech_repeatable_reduced_leader_cost_machine_intelligence }
+    give_technology = { message = no tech = tech_repeatable_improved_edict_length }
+    give_technology = { message = no tech = tech_repeatable_improved_army_damage }
+    give_technology = { message = no tech = tech_repeatable_improved_army_health }
+    give_technology = { message = no tech = tech_repeatable_improved_leader_life_span }
+    give_technology = { message = no tech = tech_repeatable_improved_starbase_capacity }
+    give_technology = { message = no tech = tech_repeatable_improved_slave_mineral_output }
+    give_technology = { message = no tech = tech_repeatable_naval_cap }
+    give_technology = { message = no tech = tech_repeatable_command_limit }
+
+    # Research repeat techs 9
+    give_technology = { message = no tech = tech_repeatable_improved_tile_mineral_output }
+    give_technology = { message = no tech = tech_repeatable_improved_military_station_damage }
+    give_technology = { message = no tech = tech_repeatable_improved_military_station_health }
+    give_technology = { message = no tech = tech_repeatable_improved_ship_health }
+    give_technology = { message = no tech = tech_repeatable_improved_armor_output }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_explosive_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_explosive_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_kinetic_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_kinetic_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_improved_tile_energy_output }
+    give_technology = { message = no tech = tech_repeatable_improved_shield_output }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_energy_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_energy_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_strike_craft_fire_damage }
+    give_technology = { message = no tech = tech_repeatable_weapon_type_strike_craft_fire_rate }
+    give_technology = { message = no tech = tech_repeatable_improved_planet_sensor_range }
+    give_technology = { message = no tech = tech_repeatable_reduced_building_cost }
+    give_technology = { message = no tech = tech_repeatable_reduced_building_time }
+    give_technology = { message = no tech = tech_repeatable_improved_tile_food_output }
+    give_technology = { message = no tech = tech_repeatable_improved_sector_cap }
+    give_technology = { message = no tech = tech_repeatable_improved_core_system_cap }
+    give_technology = { message = no tech = tech_repeatable_improved_leader_cap }
+    give_technology = { message = no tech = tech_repeatable_reduced_leader_cost }
+    give_technology = { message = no tech = tech_repeatable_reduced_leader_cost_machine_intelligence }
+    give_technology = { message = no tech = tech_repeatable_improved_edict_length }
+    give_technology = { message = no tech = tech_repeatable_improved_army_damage }
+    give_technology = { message = no tech = tech_repeatable_improved_army_health }
+    give_technology = { message = no tech = tech_repeatable_improved_leader_life_span }
+    give_technology = { message = no tech = tech_repeatable_improved_starbase_capacity }
+    give_technology = { message = no tech = tech_repeatable_improved_slave_mineral_output }
+    give_technology = { message = no tech = tech_repeatable_naval_cap }
+    give_technology = { message = no tech = tech_repeatable_command_limit }
+
+    # Research repeat techs 10
     give_technology = { message = no tech = tech_repeatable_improved_tile_mineral_output }
     give_technology = { message = no tech = tech_repeatable_improved_military_station_damage }
     give_technology = { message = no tech = tech_repeatable_improved_military_station_health }
