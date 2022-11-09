@@ -100,6 +100,9 @@ cheat_ships_modifier_edict = {
     ship_starting_experience_add = 99999
     starbase_shipyard_build_speed_mult = 900.0
     ships_upkeep_mult = -900.0
+    ship_windup_mult = -900.0
+    ship_winddown_mult = -900.0
+    ship_disengage_chance_mult = 900.0
   }
 
 	potential = {
