@@ -2,18 +2,13 @@
 @tickDuration = 0
 
 cheat_resource_modifier_edict = {
-	length = @tickDuration
+	length = @cheatDuration
 	icon = "GFX_edict_type_policy"
 
 	resources = {
 		category = edicts
 	}
-
-	effect = {
-    # Add Cheat modifier
-    add_modifier = { name = cheat_resource_modifier }
-  }
-
+  
   modifier = {
 		country_energy_produces_mult = 900.0
     country_minerals_produces_mult = 900.0
@@ -40,7 +35,6 @@ cheat_resource_modifier_edict = {
 
 	potential = {
 		is_ai = no
-    NOT = { has_modifier = cheat_resource_modifier }
 	}
 
 	ai_weight = {

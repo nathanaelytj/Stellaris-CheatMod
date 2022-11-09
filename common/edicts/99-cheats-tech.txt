@@ -14,10 +14,6 @@ cheat_tech_research = {
 	}
 
 	effect = {
-    add_modifier = {
-      modifier = cheat_tech_research
-    }
-
     # Research all techs
     give_technology = { message = no tech = tech_space_exploration }
     give_technology = { message = no tech = tech_corvettes }
@@ -417,7 +413,6 @@ cheat_tech_research = {
 
 	potential = {
 		is_ai = no
-    NOT = { has_modifier = cheat_tech_research_done }
 	}
 
 	ai_weight = {
