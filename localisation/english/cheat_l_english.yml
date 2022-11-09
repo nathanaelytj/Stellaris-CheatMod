@@ -1,0 +1,13 @@
+﻿l_english:
+  edict_cheat_tech_research:0 "Cheat Tech Research"
+  edict_cheat_tech_research_desc:0 "This modifier give most of research tech"
+  edict_cheat_resource_modifier_edict:0 "Cheat Modifier"
+  edict_cheat_resource_modifier_edict_desc:0 "This modifier give user cheat like effect"
+  edict_cheat_rare_resource_add_edict:0 "Cheat Rare Resource Add"
+  edict_cheat_rare_resource_add_edict_desc:0 "This modifier give user rare resources"
+  edict_cheat_ships_modifier_edict:0 "Cheat Ships Modifier"
+  edict_cheat_ships_modifier_edict_desc:0 "This modifier give user ships cheat like effect"
+  edict_cheat_military_cap_edict:0 "Cheat Military Cap"
+  edict_cheat_military_cap_edict_desc:0 "This modifier give user military cap cheat like effect"
+  edict_cheat_empire_size_edict:0 "Cheat Empire Size"
+  edict_cheat_empire_size_edict_desc:0 "This modifier give user empire size cheat like effect"
