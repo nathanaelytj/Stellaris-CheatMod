@@ -10,6 +10,9 @@ cheat_resource_modifier_edict = {
 	}
   
   modifier = {
+    country_base_influence_produces_add = 99
+    country_base_unity_produces_add = 99
+
 		country_energy_produces_mult = 99.0
     country_minerals_produces_mult = 99.0
 		country_food_produces_mult = 99.0
@@ -22,6 +25,8 @@ cheat_resource_modifier_edict = {
     planet_building_build_speed_mult = 99.0
     megastructure_build_speed_mult = 99.0
 		country_megastructure_build_cap_add = 999999
+    country_starbase_influence_cost_mult = -99.0
+    country_unity_produces_mult = 99.0
 
     planet_jobs_productive_upkeep_mult = -99.0
     planet_jobs_productive_produces_mult = 99.0
@@ -64,6 +69,7 @@ cheat_rare_resource_add_edict = {
     add_resource = { sr_zro = 999999999 }
     add_resource = { sr_dark_matter = 999999999 }
     add_resource = { nanites = 999999999 }
+    add_resource = { influence = 999999999 }
   }
 
 	potential = {
