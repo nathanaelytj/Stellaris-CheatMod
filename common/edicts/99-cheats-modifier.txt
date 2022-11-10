@@ -160,11 +160,12 @@ cheat_empire_size_edict = {
 	}
 
 	modifier = {
+    empire_size_systems_mult = -0.5
+    
     empire_size_colonies_mult = -99.0
     empire_size_pops_mult = -99.0
     empire_size_penalty_mult = -99.0
 		empire_size_districts_mult = -99.0
-    empire_size_systems_mult = -99.0
   }
 
 	potential = {
