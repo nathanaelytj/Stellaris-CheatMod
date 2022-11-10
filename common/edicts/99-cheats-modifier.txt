@@ -10,27 +10,27 @@ cheat_resource_modifier_edict = {
 	}
   
   modifier = {
-		country_energy_produces_mult = 900.0
-    country_minerals_produces_mult = 900.0
-		country_food_produces_mult = 900.0
-    country_consumer_goods_produces_mult = 900.0
-    country_alloys_produces_mult = 900.0
+		country_energy_produces_mult = 99.0
+    country_minerals_produces_mult = 99.0
+		country_food_produces_mult = 99.0
+    country_consumer_goods_produces_mult = 99.0
+    country_alloys_produces_mult = 99.0
 		pop_growth_speed = 1.0
-    pop_happiness = 900.0
-    edicts_upkeep_mult = -900.0
+    pop_happiness = 99.0
+    edicts_upkeep_mult = -99.0
     country_resource_max_add = 999999
-    planet_building_build_speed_mult = 900.0
-    megastructure_build_speed_mult = 900.0
+    planet_building_build_speed_mult = 99.0
+    megastructure_build_speed_mult = 99.0
 		country_megastructure_build_cap_add = 999999
 
-    planet_jobs_productive_upkeep_mult = -900.0
-    planet_jobs_productive_produces_mult = 900.0
+    planet_jobs_productive_upkeep_mult = -99.0
+    planet_jobs_productive_produces_mult = 99.0
 
-    planet_jobs_energy_produces_mult = 900.0
-    planet_jobs_minerals_produces_mult = 900.0
-    planet_jobs_food_produces_mult = 900.0
-    planet_jobs_consumer_goods_produces_mult = 900.0
-    planet_jobs_alloys_produces_mult = 900.0
+    planet_jobs_energy_produces_mult = 99.0
+    planet_jobs_minerals_produces_mult = 99.0
+    planet_jobs_food_produces_mult = 99.0
+    planet_jobs_consumer_goods_produces_mult = 99.0
+    planet_jobs_alloys_produces_mult = 99.0
   }
 
 	potential = {
@@ -79,28 +79,28 @@ cheat_ships_modifier_edict = {
 	}
 
 	modifier = {
-    ships_upkeep_mult = -900.0
-    armies_upkeep_mult = -900.0
-    leaders_upkeep_mult = -900.0
-    ships_energy_upkeep_mult = -900.0
-    starbases_energy_upkeep_mult = -900.0
-    ship_shield_mult = 900.0
-    ship_armor_mult = 900.0
-    ship_hull_regen_add_perc = 900.0
-    ship_speed_mult = 900.0
-    ship_evasion_mult = 900.0
-    ship_accuracy_mult = 900.0
-    ship_fire_rate_mult = 900.0
+    ships_upkeep_mult = -99.0
+    armies_upkeep_mult = -99.0
+    leaders_upkeep_mult = -99.0
+    ships_energy_upkeep_mult = -99.0
+    starbases_energy_upkeep_mult = -99.0
+    ship_shield_mult = 99.0
+    ship_armor_mult = 99.0
+    ship_hull_regen_add_perc = 99.0
+    ship_speed_mult = 99.0
+    ship_evasion_mult = 99.0
+    ship_accuracy_mult = 99.0
+    ship_fire_rate_mult = 99.0
     ship_starting_experience_add = 99999
-    starbase_shipyard_build_speed_mult = 900.0
-    starbase_upgrade_speed_mult = 900.0
-		shipsize_military_station_small_build_speed_mult = 900.0
-    megastructure_build_speed_mult = 900.0
-    planet_building_build_speed_mult = 900.0
-    ships_upkeep_mult = -900.0
-    ship_windup_mult = -900.0
-    ship_winddown_mult = -900.0
-    ship_disengage_chance_mult = 900.0
+    starbase_shipyard_build_speed_mult = 99.0
+    starbase_upgrade_speed_mult = 99.0
+		shipsize_military_station_small_build_speed_mult = 99.0
+    megastructure_build_speed_mult = 99.0
+    planet_building_build_speed_mult = 99.0
+    ships_upkeep_mult = -99.0
+    ship_windup_mult = -99.0
+    ship_winddown_mult = -99.0
+    ship_disengage_chance_mult = 99.0
   }
 
 	potential = {
@@ -144,11 +144,11 @@ cheat_empire_size_edict = {
 	}
 
 	modifier = {
-    empire_size_colonies_mult = -900.0
-    empire_size_pops_mult = -900.0
-    empire_size_penalty_mult = -900.0
-		empire_size_districts_mult = -900.0
-    empire_size_systems_mult = -900.0
+    empire_size_colonies_mult = -99.0
+    empire_size_pops_mult = -99.0
+    empire_size_penalty_mult = -99.0
+		empire_size_districts_mult = -99.0
+    empire_size_systems_mult = -99.0
   }
 
 	potential = {
