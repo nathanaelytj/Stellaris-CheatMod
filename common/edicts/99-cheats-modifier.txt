@@ -79,6 +79,7 @@ cheat_ships_modifier_edict = {
 	}
 
 	modifier = {
+    ship_fire_rate_mult = 1.0
     ships_upkeep_mult = -99.0
     armies_upkeep_mult = -99.0
     leaders_upkeep_mult = -99.0
@@ -90,7 +91,6 @@ cheat_ships_modifier_edict = {
     ship_speed_mult = 99.0
     ship_evasion_mult = 99.0
     ship_accuracy_mult = 99.0
-    ship_fire_rate_mult = 99.0
     ship_starting_experience_add = 99999
     starbase_shipyard_build_speed_mult = 99.0
     starbase_upgrade_speed_mult = 99.0
