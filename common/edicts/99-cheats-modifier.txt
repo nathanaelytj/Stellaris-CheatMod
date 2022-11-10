@@ -31,6 +31,11 @@ cheat_resource_modifier_edict = {
     planet_jobs_food_produces_mult = 99.0
     planet_jobs_consumer_goods_produces_mult = 99.0
     planet_jobs_alloys_produces_mult = 99.0
+
+    terraforming_cost_mult = -99.0
+    terraform_speed_mult = 99.0
+    deposit_blockers_cost_mult = -99.0
+		planet_clear_blocker_speed_mult = 99.0
   }
 
 	potential = {
@@ -80,6 +85,11 @@ cheat_ships_modifier_edict = {
 
 	modifier = {
     ship_fire_rate_mult = 1.0
+    weapon_type_kinetic_weapon_damage_mult = 1.0
+    weapon_type_explosive_weapon_damage_mult = 1.0
+    weapon_type_energy_weapon_damage_mult = 1.0
+    
+    ship_sensor_range_add = 99999
     ships_upkeep_mult = -99.0
     armies_upkeep_mult = -99.0
     leaders_upkeep_mult = -99.0
