@@ -70,6 +70,7 @@ cheat_rare_resource_add_edict = {
     add_resource = { sr_dark_matter = 999999999 }
     add_resource = { nanites = 999999999 }
     add_resource = { influence = 999999999 }
+    add_resource = { unity = 999999999 }
   }
 
 	potential = {
@@ -161,7 +162,7 @@ cheat_empire_size_edict = {
 
 	modifier = {
     empire_size_systems_mult = -0.5
-    
+
     empire_size_colonies_mult = -99.0
     empire_size_pops_mult = -99.0
     empire_size_penalty_mult = -99.0
