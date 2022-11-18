@@ -41,6 +41,10 @@ cheat_resource_modifier_edict = {
     terraform_speed_mult = 99.0
     deposit_blockers_cost_mult = -99.0
 		planet_clear_blocker_speed_mult = 99.0
+
+    intel_encryption_add = 99
+    intel_decryption_add = 99
+		add_base_country_intel = 999
   }
 
 	potential = {

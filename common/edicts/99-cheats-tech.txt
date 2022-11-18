@@ -379,6 +379,7 @@ cheat_tech_research = {
     give_technology = { message = no tech = tech_scourge_missile_1 }
     give_technology = { message = no tech = tech_space_whale_weapon_1 }
     give_technology = { message = no tech = tech_psi_jump_drive_1 }
+    give_technology = { message = no tech = tech_ascension_theory }
 
     give_technology = { message = no tech = tech_repeatable_improved_tile_mineral_output }
     give_technology = { message = no tech = tech_repeatable_improved_military_station_damage }
